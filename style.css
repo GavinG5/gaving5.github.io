@@ -1,0 +1,55 @@
+
+body {
+	background-image: url(https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=733&q=80);
+	background-size: cover;
+}
+
+#open {
+	display: flex;
+	font-size: 30px;
+	margin: 20px 5px 20px 5px;
+	font-family: 'Lobster', 'cursive', "Times Roman";
+	color: blue;
+	justify-content: center;
+
+}
+
+#background {
+	background-size: cover;
+}
+
+#banner {
+	display: flex;
+	justify-content: center;
+	font-family: fancy;
+	font-size: 45px;
+	color: blue;
+
+}
+
+#sub {font-family: fancy;
+	color: beige;
+}
+
+.justify-content-center {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	font-size: 20px;
+}
+
+.nav-item {
+	font-family: fancy;
+	color: beige;
+	list-style: none;
+	display: flex;
+} 
+
+.active { color: blue;
+		  font-family: bold;
+}
+
+#sub-btn {
+	border: 1px solid aqua; 
+	background-color: blue;
+}
